@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Roboto Mono:pixelsize=14:antialias=true:autohint=true";
+/* Spare fonts */
+static char *font2[] = {
+	"Hack:pixelsize=14:antialias=true:autohint=true",
+	"JoyPixels:pixelsize=12:antialias=true:autohint=true"
+};
+
 static int borderpx = 2;
 
 /*
